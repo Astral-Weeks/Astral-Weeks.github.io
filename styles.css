@@ -1,0 +1,145 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+body {
+  background: linear-gradient(#041414, #ccddcc, #041414);
+  font-family: sans-serif, verdana;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+p {
+  text-align: center;
+  color: white;
+}
+
+.divider {
+  border-bottom: 3px solid white;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
+}
+
+#name {
+  margin-left: 5%
+}
+
+header {
+background-color: white;
+position: fixed;
+width: 100vw;
+left: 0;
+right: 0;
+top: 0;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 50px;
+border: none;
+}
+
+#welcome-section {
+  height: 100vh;
+  color: white;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: #dfdfe2;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+li {
+  list-style-type: none;
+}
+
+#name {
+  font-color: white;
+}
+
+section {
+  border: 2px solid white;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+}
+
+.profile-link {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.social-icons {
+  display: grid;
+  font-size: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  align-items: center;
+}
+
+#profiles {
+  padding-bottom: 25
+}
+
+.profile-link {
+  color: rgb(200, 0, 0)
+}
+
+footer {
+  padding: 20 0 20 0;
+  font-size: 0.8rem;
+}
+
+p[class~="footer"] {
+  color: #bcbcbb
+}
