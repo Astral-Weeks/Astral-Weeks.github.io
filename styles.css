@@ -120,6 +120,7 @@ h3 {
 
 .social-icons {
   display: flex;
+  flex-position: row;
   justify-content: space-evenly;
   font-size: 2rem;
   grid-template-columns: repeat(2, 1fr);
