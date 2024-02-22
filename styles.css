@@ -119,7 +119,8 @@ h3 {
 }
 
 .social-icons {
-  display: grid;
+  display: flex;
+  justify-content: space-evenly;
   font-size: 2rem;
   grid-template-columns: repeat(2, 1fr);
   grid-auto-flow: column;
